@@ -1,0 +1,110 @@
+-- Insert merchants
+insert into merchant(name) values ('Sony');
+insert into merchant(name) values ('Microsoft');
+insert into merchant(name) values ('Nintendo');
+insert into merchant(name) values ('Samsung');
+insert into merchant(name) values ('LG');
+insert into merchant(name) values ('Apple');
+insert into merchant(name) values ('Asus');
+insert into merchant(name) values ('Dell');
+insert into merchant(name) values ('HP');
+insert into merchant(name) values ('Razer');
+
+-- Insert categories
+insert into category(name) values ('Video Games');
+insert into category(name) values ('Electronics');
+insert into category(name) values ('Accessories');
+insert into category(name) values ('Home Appliances');
+insert into category(name) values ('Laptops');
+
+insert into product(name, category_id, price) values ('Sony DualSense Controller White PlayStation 5', 1, 300.00);
+insert into product(name, category_id, price) values ('Xbox Wireless Controller', 1, 60.00);
+insert into product(name, category_id, price) values ('Nintendo Switch Joy-Con Controllers', 1, 70.00);
+insert into product(name, category_id, price) values ('PlayStation 5 Console', 1, 499.99);
+insert into product(name, category_id, price) values ('Xbox Series X Console', 1, 499.99);
+insert into product(name, category_id, price) values ('Nintendo Switch OLED', 1, 350.00);
+insert into product(name, category_id, price) values ('PlayStation VR2', 1, 550.00);
+insert into product(name, category_id, price) values ('Nintendo Switch Pro Controller', 1, 80.00);
+insert into product(name, category_id, price) values ('PS5 Media Remote', 1, 30.00);
+insert into product(name, category_id, price) values ('Xbox Series S', 1, 299.99);
+
+-- Electronics
+insert into product(name, category_id, price) values ('Sony 65-inch 4K TV', 2, 1200.00);
+insert into product(name, category_id, price) values ('Samsung Galaxy S21', 2, 800.00);
+insert into product(name, category_id, price) values ('Apple iPhone 13', 2, 999.00);
+insert into product(name, category_id, price) values ('LG OLED 55-inch TV', 2, 1500.00);
+insert into product(name, category_id, price) values ('Apple MacBook Pro 16"', 2, 2400.00);
+insert into product(name, category_id, price) values ('Samsung Galaxy Buds Pro', 2, 200.00);
+insert into product(name, category_id, price) values ('Sony WH-1000XM4', 2, 350.00);
+insert into product(name, category_id, price) values ('Bose QuietComfort 35 II', 2, 300.00);
+insert into product(name, category_id, price) values ('Apple Watch Series 7', 2, 400.00);
+insert into product(name, category_id, price) values ('Samsung Galaxy Tab S7', 2, 650.00);
+
+-- Accessories
+insert into product(name, category_id, price) values ('Razer DeathAdder Elite Mouse', 3, 60.00);
+insert into product(name, category_id, price) values ('SteelSeries Arctis 7 Headset', 3, 120.00);
+insert into product(name, category_id, price) values ('Logitech G Pro X Keyboard', 3, 130.00);
+insert into product(name, category_id, price) values ('HyperX Cloud II Headset', 3, 100.00);
+insert into product(name, category_id, price) values ('Corsair K95 RGB Platinum', 3, 200.00);
+insert into product(name, category_id, price) values ('Razer Kraken V3', 3, 150.00);
+insert into product(name, category_id, price) values ('Logitech MX Master 3 Mouse', 3, 100.00);
+insert into product(name, category_id, price) values ('Apple Magic Mouse 2', 3, 80.00);
+insert into product(name, category_id, price) values ('Logitech G Pro Wireless', 3, 140.00);
+insert into product(name, category_id, price) values ('Sony PlayStation Camera', 3, 60.00);
+
+-- Home Appliances
+insert into product(name, category_id, price) values ('Dyson V11 Cordless Vacuum', 4, 600.00);
+insert into product(name, category_id, price) values ('Ninja Foodi Pressure Cooker', 4, 170.00);
+insert into product(name, category_id, price) values ('Samsung Refrigerator 30 cu ft', 4, 2500.00);
+insert into product(name, category_id, price) values ('LG Washer and Dryer', 4, 1200.00);
+insert into product(name, category_id, price) values ('Sony 2.1 Soundbar', 4, 200.00);
+insert into product(name, category_id, price) values ('Vizio 70-inch TV', 4, 800.00);
+insert into product(name, category_id, price) values ('Philips Sonicare Toothbrush', 4, 100.00);
+insert into product(name, category_id, price) values ('Keurig K-Elite Coffee Maker', 4, 130.00);
+insert into product(name, category_id, price) values ('Samsung Dishwasher', 4, 700.00);
+insert into product(name, category_id, price) values ('GoPro HERO10 Black', 4, 450.00);
+
+-- Laptops
+insert into product(name, category_id, price) values ('Apple MacBook Air 13"', 5, 999.99);
+insert into product(name, category_id, price) values ('Dell XPS 13', 5, 1200.00);
+insert into product(name, category_id, price) values ('Asus ZenBook 14', 5, 950.00);
+insert into product(name, category_id, price) values ('HP Spectre x360', 5, 1400.00);
+insert into product(name, category_id, price) values ('Microsoft Surface Laptop 4', 5, 1300.00);
+insert into product(name, category_id, price) values ('Lenovo ThinkPad X1 Carbon', 5, 1600.00);
+insert into product(name, category_id, price) values ('Razer Blade 15', 5, 2000.00);
+insert into product(name, category_id, price) values ('MacBook Pro 13" M1', 5, 1500.00);
+insert into product(name, category_id, price) values ('Acer Aspire 5', 5, 600.00);
+insert into product(name, category_id, price) values ('HP Envy 13', 5, 800.00);
+
+-- Insert Admins
+insert into user(balance, password, user_name, email, role) values (400, 'Qwessdrfg1@', 'salem', 's@gmail.com', 'Admin');
+insert into user(balance, password, user_name, email, role) values (500, 'Password123', 'john_doe', 'john@example.com', 'Admin');
+insert into user(balance, password, user_name, email, role) values (300, '12345password', 'alice_wonder', 'alice@example.com', 'Admin');
+insert into user(balance, password, user_name, email, role) values (200, 'Secret321', 'bob_marley', 'bob@example.com', 'Admin');
+insert into user(balance, password, user_name, email, role) values (150, 'AdminPass!', 'admin1', 'admin1@example.com', 'Admin');
+insert into user(balance, password, user_name, email, role) values (350, 'CoolPassword!2', 'steve_smith', 'steve@example.com', 'Admin');
+insert into user(balance, password, user_name, email, role) values (100, 'HelloWorld99', 'jane_doe', 'jane@example.com', 'Admin');
+insert into user(balance, password, user_name, email, role) values (600, 'Gamer2021!', 'markus', 'markus@example.com', 'Admin');
+insert into user(balance, password, user_name, email, role) values (450, '123SecurePass', 'lucas_perez', 'lucas@example.com', 'Admin');
+insert into user(balance, password, user_name, email, role) values (200, 'PassworD!123', 'michelle', 'michelle@example.com', 'Admin');
+
+insert into merchant_stock(merchant_id, product_id, stock) values (1, 1, 20);
+insert into merchant_stock(merchant_id, product_id, stock) values (1, 2, 15);
+insert into merchant_stock(merchant_id, product_id, stock) values (2, 3, 18);
+insert into merchant_stock(merchant_id, product_id, stock) values (2, 4, 22);
+insert into merchant_stock(merchant_id, product_id, stock) values (3, 5, 25);
+insert into merchant_stock(merchant_id, product_id, stock) values (3, 6, 30);
+insert into merchant_stock(merchant_id, product_id, stock) values (4, 7, 15);
+insert into merchant_stock(merchant_id, product_id, stock) values (4, 8, 12);
+insert into merchant_stock(merchant_id, product_id, stock) values (5, 9, 10);
+insert into merchant_stock(merchant_id, product_id, stock) values (5, 10, 20);
+
+insert into purchase_history(merchant_id, price, product_id, user_id) values (2, 60.00, 2, 2);
+insert into purchase_history(merchant_id, price, product_id, user_id) values (3, 350.00, 3, 3);
+insert into purchase_history(merchant_id, price, product_id, user_id) values (4, 400.00, 4, 4);
+insert into purchase_history(merchant_id, price, product_id, user_id) values (5, 500.00, 5, 5);
+insert into purchase_history(merchant_id, price, product_id, user_id) values (6, 150.00, 6, 6);
+insert into purchase_history(merchant_id, price, product_id, user_id) values (7, 130.00, 7, 7);
+insert into purchase_history(merchant_id, price, product_id, user_id) values (8, 250.00, 8, 8);
+insert into purchase_history(merchant_id, price, product_id, user_id) values (9, 200.00, 9, 9);
+insert into purchase_history(merchant_id, price, product_id, user_id) values (10, 600.00, 10, 10);
